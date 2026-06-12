@@ -1,3 +1,5 @@
+SET client_encoding TO 'UTF8';
+
 CREATE TABLE authors (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
