@@ -20,6 +20,17 @@ const getById = async (req, res) => {
   }
 };
 
+const create = async (req, res) => {
+  try {
+    const { name, email, bio } = req.body;
+    if (!name || !email) return res.status(400).json({ error: 'name y email son obligatorios' });
+    const newAuthor = await authorsService.create({ name, email, bio });
+    res.status(201).json(newAuthor);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 const update = async (req, res) => {
   try {
     const { id } = req.params;
