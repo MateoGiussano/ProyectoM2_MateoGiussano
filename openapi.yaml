@@ -11,7 +11,7 @@ servers:
   - url: http://localhost:3000
     description: Desarrollo local
 
-  - url: https://tu-proyecto.en.railway.app
+  - url: https://proyectom2mateogiussano-production.up.railway.app
     description: Producción (Railway)
 
 paths:
