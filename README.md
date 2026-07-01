@@ -310,6 +310,11 @@ proyectom2mateogiussano.railway.internal
 https://proyectom2mateogiussano-production.up.railway.app
 ```
 
+### Registro del uso de IA en el proyecto
+
+Durante el desarrollo se utilizó Claude (Anthropic) como asistente principal.
+La IA fue utilizada como herramienta de apoyo para explicar conceptos, guiar decisiones técnicas y acompañar el desarrollo paso a paso. Cada bloque de código fue revisado y comprendido antes de incorporarlo al proyecto, priorizando el aprendizaje sobre la velocidad.
+
 ## Autor
 
 Mateo Giussano
